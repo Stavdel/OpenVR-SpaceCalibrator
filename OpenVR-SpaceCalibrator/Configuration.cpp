@@ -146,7 +146,7 @@ static void WriteProfile(CalibrationContext &ctx, std::ostream &out)
 	profile["calibration_speed"].set<double>(speed);
 
 	// Save continuous calibration fields
-	Eigen::Vector3d refToTargetRotation = ctx.refToTargetPose.rotation().canonicalEulerAngles(0, 1, 2);
+	Eigen::Vector3d refToTargetRotation = ctx.refToTargetPose.rotation().eulerAngles(0, 1, 2);
 	Eigen::Vector3d refToTargetTranslation = ctx.refToTargetPose.translation();
 	picojson::object refToTarget;
 	refToTarget["x"].set<double>(refToTargetTranslation(0));

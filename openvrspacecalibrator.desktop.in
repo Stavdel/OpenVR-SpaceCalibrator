@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment=OpenVR Space Calibrator.
+Exec=@CMAKE_INSTALL_PREFIX@/bin/openvr-spacecalibrator
+GenericName=Game
+Icon=OpenVR-SpaceCalibrator
+Name=OpenVR Space-Calibrator
+Path=@CMAKE_INSTALL_PREFIX@/bin
+Terminal=false
+Type=Application
+Version=1.0

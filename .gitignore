@@ -1,12 +1,64 @@
+# Visual Studio
 ipch
 .vs
 *.db
 *.opendb
 *.aps
 *.user
-/OpenVR-SpaceCalibrator/x64/
-/OpenVR-SpaceCalibratorDriver/x64/
-/x64/
-/lib/boost*
-build
+
+# Build directories
+build/
+*/build/
+x64/
+*/x64/
+
+# CMake generated files
+CMakeFiles/
+*/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*/Makefile
+compile_commands.json
+*.cmake
+!CMakeLists.txt
+
+# CMake logs
+CMakeConfigureLog.yaml
+
+# Generated libraries
+*.a
+*.so
+*.dll
+*.lib
+*.exe
+
+# Configured files
+*.desktop
+
+# CMake generated files
+CMakeFiles/
+*/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*/Makefile
+compile_commands.json
+*.cmake
+!CMakeLists.txt
+
+# CMake logs
+CMakeConfigureLog.yaml
+
+# Generated libraries
+*.a
+*.so
+*.dll
+*.lib
+*.exe
+
+# IDE files
 .idea
+
+# Boost libraries
+/lib/boost*

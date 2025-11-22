@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/stavdel/Code/Space Cal Project/OpenVR-SpaceCalibrator/cmake_install.cmake",
-		"/home/stavdel/Code/Space Cal Project/OpenVR-SpaceCalibrator/OpenVR-SpaceCalibrator/cmake_install.cmake",
-		"/home/stavdel/Code/Space Cal Project/OpenVR-SpaceCalibrator/OpenVR-SpaceCalibratorDriver/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
